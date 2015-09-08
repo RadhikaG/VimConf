@@ -13,7 +13,7 @@ Screenshot time!
 ![screenshot](https://raw.githubusercontent.com/RadhikaG/VimConf/master/screenshot.png)
 
 # Installation
-(instructions shamelessly stolen from [here](https://github.com/scrooloose/vimfiles#installation))
+(instructions shamelessly copied from [here](https://github.com/scrooloose/vimfiles#installation))
 
 Clone the repo: 
 `git clone https://github.com/RadhikaG/VimConf.git ~/.vim`
