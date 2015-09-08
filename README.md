@@ -10,6 +10,7 @@ The plugins I use are:
 I use Monokai as my color scheme and font as Inconsolata-dz.
 
 Screenshot time!
+
 ![screenshot](https://raw.githubusercontent.com/RadhikaG/VimConf/master/screenshot.png)
 
 # Installation
