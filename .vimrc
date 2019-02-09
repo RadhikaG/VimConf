@@ -1,5 +1,15 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+" For splitting screen more naturally
+set splitright
+set splitbelow
+
+
+" Some settings for ctags
+set tags=tags;/
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+" map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -29,6 +39,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'rust-lang/rust.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -49,6 +60,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set number
+set colorcolumn=80
 syntax on
 filetype plugin on
 colorscheme molokai
+highlight ColorColumn ctermbg=4 guibg=DarkBlue
