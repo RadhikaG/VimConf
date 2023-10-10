@@ -2,10 +2,7 @@
 My personal Vim configuration, made with love during college lectures et al.
 
 The plugins I use are:
-* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-* [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
-* [NERDTree](https://github.com/scrooloose/nerdtree)
-* [EasyMotion](https://github.com/easymotion/vim-easymotion)
+* [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
 I use Monokai as my color scheme and font as Inconsolata-dz.
 

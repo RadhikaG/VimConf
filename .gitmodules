@@ -1,12 +1,6 @@
 [submodule "bundle/Vundle.vim"]
-	path = bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
-[submodule "bundle/nerdcommenter"]
-    path = bundle/nerdcommenter
-    url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/nerdtree"]
-    path = bundle/nerdtree
-    url = https://github.com/scrooloose/nerdtree.git
+    path = bundle/Vundle.vim
+    url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "bundle/YouCompleteMe"]
     path = bundle/YouCompleteMe
     url = https://github.com/ycm-core/YouCompleteMe.git
