@@ -50,3 +50,10 @@ syntax on
 filetype plugin on
 colorscheme molokai
 highlight ColorColumn ctermbg=4 guibg=DarkBlue
+set backspace=indent,eol,start
+
+nnoremap <leader>gt :YcmCompleter GoTo<CR>
+nnoremap <leader>in :vs \| YcmCompleter GoToInclude<CR>
+nnoremap <leader>df :vs \| YcmCompleter GoToDefinition<CR>
+nnoremap <leader>dl :vs \| YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>im :vs \| YcmCompleter GoToImplementation<CR>
